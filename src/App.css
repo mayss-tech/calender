@@ -1,0 +1,56 @@
+.time{
+    max-width: 25vw;
+    background-color: rgba(17, 16, 16, 0.507);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    cursor:pointer;
+}
+.element{
+    margin-left:1vw;
+    margin-right:1vw;
+    color:wheat
+}
+.day{
+    max-width: 25vw;
+    display:flex;
+    background-color: rgba(3, 58, 3, 0.479);
+}
+.day>select{
+    height: 5vh;
+    margin-top:1vh;
+    border-radius: 1vh;
+    -webkit-border-radius: 1vh;
+    -moz-border-radius: 1vh;
+    -ms-border-radius: 1vh;
+    -o-border-radius: 1vh;
+    background-color:rgba(17, 16, 16, 0.233) ;
+    margin-left: 3vw;
+    outline: none;
+    cursor:pointer;
+}
+.open{
+    max-width: 25vw;
+    /* height: 5vh; */
+    background-color: rgba(3, 58, 3, 0.479);
+}
+.open>select{
+    height: 5vh;
+    margin-top:1vh;
+    border-radius: 1vh;
+    -webkit-border-radius: 1vh;
+    -moz-border-radius: 1vh;
+    -ms-border-radius: 1vh;
+    -o-border-radius: 1vh;
+    background-color:rgba(17, 16, 16, 0.233) ;
+    margin-left: 9.5vw;
+    outline: none;
+    margin-bottom: 1vh;
+    cursor:pointer;
+
+}
+.btn{
+    margin-top:1vh;
+    margin-bottom:1vh;
+    margin-left:75%
+}
