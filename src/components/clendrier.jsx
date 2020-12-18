@@ -7,7 +7,7 @@ const Clendrier = () => {
 
 
     return (
-        <div>
+        <div style={{marginLeft:"20vw"}}>
             <div className="day">
               <select onChange={(e)=>setFirstDay(e.target.value)}>
                   <option>From...</option>

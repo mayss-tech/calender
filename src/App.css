@@ -25,12 +25,13 @@
     -ms-border-radius: 1vh;
     -o-border-radius: 1vh;
     background-color:rgba(17, 16, 16, 0.233) ;
-    margin-left: 3vw;
+    margin-left: 3.5vw;
     outline: none;
     cursor:pointer;
 }
 .open{
-    max-width: 25vw;
+  
+    /* max-width: 25vw; */
     /* height: 5vh; */
     background-color: rgba(3, 58, 3, 0.479);
 }
@@ -54,3 +55,47 @@
     margin-bottom:1vh;
     margin-left:75%
 }
+.choosenHour{
+ background-color: rgba(3, 58, 3, 0.479);
+ border-radius:40vw;
+ -webkit-border-radius:40vw;
+ -moz-border-radius:40vw;
+ -ms-border-radius:40vw;
+ -o-border-radius:40vw;
+}
+
+.unchoosenHour{
+    background-color:none;
+}
+.slider{
+    position:relative;
+    display:flex;
+    align-items: center;
+    width:25vw;
+    overflow: hidden;
+}
+.slide{
+    margin-left:11vw;
+    width: 5vw;
+    position:relative;
+  
+}
+.left{
+   position: absolute;
+   background:none;
+   border:none;
+   outline: none;
+   transition: 0.5s;
+   cursor: pointer;
+   margin-left: 13.5vw;
+}
+.right{
+    position: absolute;
+    background:none;
+    border:none;
+    outline: none;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left:9.5vw;
+ }
+ 
